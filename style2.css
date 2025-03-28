@@ -1,0 +1,45 @@
+html {
+    font-size: 24px;
+    line-height: 1.15;
+}
+body {
+    font-family: "Noto Sans JP", sans-serif;
+    color: #333333;
+    line-height: 1.5;
+    background-color: #fae7ef;
+    width: 100%;
+    padding: 10px 30px;
+  }
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+li {
+    margin: 10px 10px;
+
+}
+  
+
+img {
+    width: 300px;
+    height: auto;
+    box-shadow: 5px 5px 8px rgba(0,0,0,.4);
+
+}
+
+@media screen and (max-width: 768px){
+    html {
+        font-size: 12px;
+    }
+    
+    body {
+        padding: 5px
+    }
+
+    img {
+        width: 200px;
+    }
+}
